@@ -1,5 +1,4 @@
-require('dotenv').config();
-
+const bcrypt = require('bcrypt');
 const mongoose = require('mongoose');
 const address = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/testdb';
 
